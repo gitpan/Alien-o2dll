@@ -1,0 +1,47 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use Alien::o2dll qw( o2dll );
+
+# PODNAME: po2dll
+# ABSTRACT: Make dynamic link library
+our $VERSION = '0.02'; # VERSION
+
+
+o2dll(@ARGV);
+
+__END__
+
+=pod
+
+=encoding UTF-8
+
+=head1 NAME
+
+po2dll - Make dynamic link library
+
+=head1 VERSION
+
+version 0.02
+
+=head1 SEE ALSO
+
+=over 4
+
+=item L<Alien::o2dll>
+
+=back
+
+=head1 AUTHOR
+
+Graham Ollis <plicease@cpan.org>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Graham Ollis.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
