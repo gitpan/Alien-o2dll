@@ -4,11 +4,11 @@ author:
   - 'Graham Ollis <plicease@cpan.org>'
 build_requires:
   Module::Build: 0.3601
-  Test::More: 0
+  Test::More: 0.94
 configure_requires:
   Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.133380'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,7 +20,7 @@ requires:
   base: 0
   perl: 5.008
 resources:
-  bugtracker: https://github.com/plicease/alien-o2dll/issues
-  homepage: http://perl.wdlabs.com/Alien-o2dll/
-  repository: git://github.com/plicease/alien-o2dll.git
-version: 0.02
+  bugtracker: https://github.com/plicease/Alien-o2dll/issues
+  homepage: http://perl.wdlabs.com/Alien-o2dll
+  repository: git://github.com/plicease/Alien-o2dll.git
+version: 0.03

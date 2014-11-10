@@ -4,7 +4,7 @@
       "Graham Ollis <plicease@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "perl_5"
    ],
@@ -34,22 +34,22 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0"
+            "Test::More" : "0.94"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "web" : "https://github.com/plicease/alien-o2dll/issues"
+         "web" : "https://github.com/plicease/Alien-o2dll/issues"
       },
-      "homepage" : "http://perl.wdlabs.com/Alien-o2dll/",
+      "homepage" : "http://perl.wdlabs.com/Alien-o2dll",
       "repository" : {
          "type" : "git",
-         "url" : "git://github.com/plicease/alien-o2dll.git",
-         "web" : "https://github.com/plicease/alien-o2dll"
+         "url" : "git://github.com/plicease/Alien-o2dll.git",
+         "web" : "https://github.com/plicease/Alien-o2dll"
       }
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
 

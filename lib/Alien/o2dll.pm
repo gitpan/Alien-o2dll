@@ -10,7 +10,7 @@ use File::Spec;
 our @EXPORT_OK = qw( o2dll o2dll_path );
 
 # ABSTRACT: Make dynamic link library
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 
 sub o2dll
@@ -48,7 +48,7 @@ Alien::o2dll - Make dynamic link library
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

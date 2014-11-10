@@ -6,7 +6,7 @@ use Alien::o2dll qw( o2dll );
 
 # PODNAME: po2dll
 # ABSTRACT: Make dynamic link library
-our $VERSION = '0.02'; # VERSION
+our $VERSION = '0.03'; # VERSION
 
 
 o2dll(@ARGV);
@@ -23,7 +23,7 @@ po2dll - Make dynamic link library
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SEE ALSO
 
